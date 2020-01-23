@@ -2,17 +2,24 @@
 <html lang="en">
   <head>
     <title>Snake</title>
-    <link rel="stylesheet" href="snake.css" />
-    <script src="direction.js"></script>
-    <script src="food.js"></script>
-    <script src="scorer.js"></script>
-    <script src="snake.js"></script>
-    <script src="game.js"></script>
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="index.css" />
   </head>
-  <body onload="main()">
-    <h1>Snake Game</h1>
-    <div id="grid"></div>
-    <div id="scoreBoard"></div>
+  <body>
+    <h1>Please Enter Your Name To Login</h1>
+    <div class="loginContainer">
+      <img
+        src="https://www.typinggames.zone/web/resources/templates/frontend/typingmaster/snakehtml5b/images/logo.png"
+      />
+      <form action="game.html" method="POST">
+        <input
+          type="text"
+          autocomplete="off"
+          placeholder="name"
+          name="name"
+          required
+        />
+        <input type="submit" value="login" class="button" />
+      </form>
+    </div>
   </body>
 </html>

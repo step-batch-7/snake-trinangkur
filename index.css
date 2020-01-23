@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.loginContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 400px;
+  border: gray solid 1px;
+  margin: 120px auto;
+  align-content: center;
+}
+
+input {
+  font-size: large;
+  width: 300px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.button {
+  background-color: skyblue;
+}
